@@ -1,0 +1,10 @@
+E:\GithubCode\Clock_Cs\Clock\bin\Debug\Clock.exe.config
+E:\GithubCode\Clock_Cs\Clock\bin\Debug\Clock.exe
+E:\GithubCode\Clock_Cs\Clock\bin\Debug\Clock.pdb
+E:\GithubCode\Clock_Cs\Clock\obj\Debug\Clock.csprojAssemblyReference.cache
+E:\GithubCode\Clock_Cs\Clock\obj\Debug\Clock.Form1.resources
+E:\GithubCode\Clock_Cs\Clock\obj\Debug\Clock.Properties.Resources.resources
+E:\GithubCode\Clock_Cs\Clock\obj\Debug\Clock.csproj.GenerateResource.cache
+E:\GithubCode\Clock_Cs\Clock\obj\Debug\Clock.csproj.CoreCompileInputs.cache
+E:\GithubCode\Clock_Cs\Clock\obj\Debug\Clock.exe
+E:\GithubCode\Clock_Cs\Clock\obj\Debug\Clock.pdb

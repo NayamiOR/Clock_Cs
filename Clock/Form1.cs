@@ -15,6 +15,12 @@ namespace Clock
         public Form1()
         {
             InitializeComponent();
+            this.label1.Text = DateTime.Now.ToString();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
