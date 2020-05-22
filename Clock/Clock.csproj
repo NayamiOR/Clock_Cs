@@ -46,16 +46,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="倒计时.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="倒计时.Designer.cs">
+      <DependentUpon>倒计时.cs</DependentUpon>
+    </Compile>
+    <Compile Include="钟.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="钟.Designer.cs">
+      <DependentUpon>钟.cs</DependentUpon>
+    </Compile>
+    <Compile Include="正计时.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="正计时.Designer.cs">
+      <DependentUpon>正计时.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="钟.resx">
+      <DependentUpon>钟.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
