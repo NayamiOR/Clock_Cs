@@ -25,17 +25,17 @@ namespace Clock
         {
 
         }
-
+        
         private void timer1_Tick(object sender, EventArgs e)
         {
-            this.label1.Text = DateTime.Now.ToString();
+            this.label1.Text = DateTime.Now.ToString();//显示当前时间
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (TDownOpen = false)
+            var frm = new TimingDown();
+            if (TDownOpen == false)//如果已经开启则不打开新窗口
             {
-                TimingDown frm = new TimingDown();
                 frm.Show();
                 TDownOpen = true;
             }
@@ -43,9 +43,8 @@ namespace Clock
 
         private void button2_Click(object sender, EventArgs e)
         {
-            TimingUp frm = new TimingUp();
+            var frm = new TimingUp();
             frm.Show();
-            TUpOpen = true;
         }
     }
 }

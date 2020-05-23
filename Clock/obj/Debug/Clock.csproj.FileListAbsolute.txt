@@ -7,4 +7,6 @@ E:\GithubCode\Clock_Cs\Clock\obj\Debug\Clock.csproj.GenerateResource.cache
 E:\GithubCode\Clock_Cs\Clock\obj\Debug\Clock.csproj.CoreCompileInputs.cache
 E:\GithubCode\Clock_Cs\Clock\obj\Debug\Clock.exe
 E:\GithubCode\Clock_Cs\Clock\obj\Debug\Clock.pdb
-E:\GithubCode\Clock_Cs\Clock\obj\Debug\Clock.钟.resources
+E:\GithubCode\Clock_Cs\Clock\obj\Debug\Clock.TimingDown.resources
+E:\GithubCode\Clock_Cs\Clock\obj\Debug\Clock.TimingUp.resources
+E:\GithubCode\Clock_Cs\Clock\obj\Debug\Clock.Clock.resources

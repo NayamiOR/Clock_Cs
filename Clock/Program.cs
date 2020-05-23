@@ -16,7 +16,7 @@ namespace Clock
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new 钟());
+            Application.Run(new Clock());
         }
     }
 }
