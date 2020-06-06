@@ -12,7 +12,19 @@ namespace Clock
 {
     public partial class TimingUp : Form
     {
+
         int s=0, min=0, h=0;//秒分钟小时
+
+        private void TimingUp_Load(object sender, EventArgs e)
+        {
+            Clock.TUState(true);
+        }
+
+        private void TimingUp_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Clock.TUState(false);
+        }
+
         public TimingUp()
         {
             InitializeComponent();

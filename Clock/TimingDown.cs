@@ -26,9 +26,14 @@ namespace Clock
             if(s>0||h>0||min>0) this.timer1.Enabled = true;
         }
 
+        private void TimingDown_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Clock.TDState(false);
+        }
+
         private void TimingDown_Load(object sender, EventArgs e)
         {
-
+            Clock.TDState(true);
         }
         private void timer1_Tick(object sender, EventArgs e)
         {

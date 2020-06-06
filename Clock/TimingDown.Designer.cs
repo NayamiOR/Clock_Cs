@@ -131,6 +131,7 @@
             this.Controls.Add(this.label1);
             this.Name = "TimingDown";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.TimingDown_FormClosed);
             this.Load += new System.EventHandler(this.TimingDown_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

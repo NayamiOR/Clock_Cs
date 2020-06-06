@@ -13,8 +13,16 @@ namespace Clock
     public partial class Clock : Form
     {
         //检查TimingUp和TimingDown窗口是否已经打开
-        bool TUpOpen = false;
-        bool TDownOpen = false;
+        public static bool TUIsOpen = false;
+        public static bool TDIsOpen = false;
+        public static void TUState(bool state)
+        {
+            TUIsOpen = state;
+        }
+        public static void TDState(bool state)
+        {
+            TDIsOpen = state;
+        }
         public Clock()
         {
             InitializeComponent();
@@ -34,17 +42,19 @@ namespace Clock
         private void button1_Click(object sender, EventArgs e)
         {
             var frm = new TimingDown();
-            if (TDownOpen == false)//如果已经开启则不打开新窗口
+            if (TDIsOpen == false)//如果已经开启则不打开新窗口
             {
                 frm.Show();
-                TDownOpen = true;
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             var frm = new TimingUp();
-            frm.Show();
+            if (TUIsOpen == false)//如果已经开启则不打开新窗口
+            {
+                frm.Show();
+            }
         }
     }
 }

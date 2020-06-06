@@ -57,6 +57,8 @@
             this.Controls.Add(this.label1);
             this.Name = "TimingUp";
             this.Text = "Form2";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.TimingUp_FormClosed);
+            this.Load += new System.EventHandler(this.TimingUp_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
